@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Site Estruturado</title>
+
+  <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(78, 53, 53);
+            margin: 0px;
+        }
+        header{
+            background-image: linear-gradient(to bottom, white, rgba(172, 169, 169, 0.568));
+
+            
+            
+             margin: 10px;
+            
+            padding: 10px;
+        }
+        nav{
+            background-color: gray;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315 );
+            padding: 5px;
+            
+        }
+         nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            margin-bottom: 5px;
+            padding: 5px;
+        
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+            
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+            
+        }
+      
+        article{
+            background-color: lightgrey;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 0px 10px 10px;
+            
+
+        }
+         article > aside{
+            background-color: purple;
+            margin-bottom: 22px;
+            font-size: 14px;
+            color: white;
+        }
+         picture > img{
+            
+            margin: 0;
+            padding: 0px;
+             
+        }
+      
+         footer{
+           background-color: black;
+           color: wheat;
+           text-align: center;
+           padding: 8px;
+           margin: 0px;
+           
+        } 
+        footer > p{
+            margin: 0px;
+        } 
+       
+        div > a{
+            
+        
+            text-decoration: underline;
+            font-weight: bold;
+            color: gray;
+        
+        }
+        div > a:hover{
+            color: black;
+            text-decoration: none;
+        }
+  
+      
+      
+      
+    
+
+    </style>  -->
+    
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Parceiros</a>
+            <a href="#">Notícias</a>
+            <a href="#">Assine</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <div>
+                <a href="#">Política</a>
+                <a href="#">Saúde</a>
+                <a href="#">Esportes</a> 
+            </div>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eos nam odio harum officia blanditiis dolore iusto, culpa aliquam vero tempore eius doloribus ex, reiciendis nemo aspernatur dicta eum voluptate.</p>
+                <aside>
+                    Artigo escrito por Claudia Santos
+            </aside>
+        </article>
+            <article>
+                <h2>Artista regional</h2>    
+                <picture>
+                    <source media="(max-width: 600px)" srcset="img/pequeno.jfif" type="image/png">
+                    <source media="(max-width: 1000px)" srcset="img/medio.jfif" type="image/png">
+                    <img src="img/grande.jpg" alt="ze-grande">
+                </picture>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates, voluptas quisquam rerum distinctio neque eligendi molestiae atque quibusdam eaque aspernatur illo tempore repellendus consectetur ducimus, odit suscipit! Odit, porro?</p>
+       
+        </section>
+        <article>
+                <h2>Nordeste em primeiro lugar!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptatibus fugit, dolore, nihil praesentium itaque sapiente soluta impedit ipsum illo necessitatibus asperiores fugiat architecto laboriosam sit accusantium! Vero, culpa possimus!</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta pariatur debitis optio iure reprehenderit ab maxime voluptatum, quasi nam modi deleniti, nulla et quia numquam sed porro tempora dolorem repudiandae?</p>
+                <aside>
+                    Artigo escrito por Juliana Pereira
+                </aside>
+        </article>
+        </section>
+        <section id="politica">
+            <p>Indigenas Popular Empreendedorismo</p>
+            <article>
+                <h2>Assembléia Xukuru 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque esse suscipit magnam deleniti ratione nemo perspiciatis nesciunt quod tempora dolores, quis, velit corrupti, deserunt autem consequuntur expedita eligendi blanditiis voluptatum!</p>
+                <aside>
+                    Artigo escrito por Guilherme Ferreira
+                </aside>
+            </article>
+            
+
+        </section>
+
+    </main>
+
+    <footer>
+<p>Desenvolvido por JoséMariaDuarte</p>
+    </footer>
+</body>
+</html>
